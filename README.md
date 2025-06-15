@@ -1,11 +1,18 @@
 # OpenLandMap-soildb
 
-Production of global soil data predictions using scikit-map within the **EO-SoilMapper** framework. 
+<a rel="license" href="https://zenodo.org/doi/10.5281/zenodo.15608972"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.988285250.svg" alt="DOI" style="border-width:0"/></a><br />
+
+Production of global soil data predictions using [scikit-map]() within the **EO-SoilMapper** framework. 
 Target spatial resolution is 30 m (global coverage excluding deserts and permanent ice). 
 Target period of interest is 2000 to 2022+ with 5 year intervals (spacetime block predictions). 
 Depth intervals provided: 0–30, 30–60, 60–100 cm.
 Predictions are based on using Quantile Regression Random Forest with with output predictions showing 
 the mean plus the lower and upper prediction intervals of 68% probability to approximate one standard deviation.
+
+<img src="visualizations/brazil_sanjuan.gif" alt="Changes in soil carbon density for an area in Brazil (San Juan)" style="border-width:0" width="680"/><br />
+
+The **[following tutorial](OpenLandMap_soildb_tutorial.ipynb)** explains how to access data (point queries) and interpret uncertainty (prediction intervals) 
+for some arbitrary location (lat-lon) including the uncertainty per depth interval.
 
 This documentation is **under construction**.
 
@@ -20,24 +27,26 @@ Layers available in the current version of the OpenLandMap-soildb include:
 - Soil texture fraction clay-silt-sand [%];
 - USDA subgroup taxa [-];
 
-Full list of layers in available in this table. To access layers at finest resolution please use the S3 links.
+Full list of layers in available in **[this table](tables/OpenLandMap_soildb_COGS.csv)**. To access layers at finest resolution please use the S3 links.
 
 For each prediction (mean value) lower and upper prediction intervals are also provided, however 
 these are available only at 120 m spatial resolution.
 
-Additional layers are available via https://stac.openlandmap.org. 
+Additional global layers are available via https://stac.openlandmap.org. 
 
 ## License
 
-[<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />](http://creativecommons.org/licenses/by-sa/4.0/)
+[<img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />](http://creativecommons.org/licenses/by/4.0/)
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 ## How to cite:
 
 To cite layers distributed via OpenLandMap-soildb please use:
 
 - Hengl, T., Consoli, D., Tian, X., and others, (2025??). **OpenLandMap-soildb: global soil information at 30~m spatial resolution for 2000--2022+ based on spatiotemporal Machine Learning and harmonized legacy soil samples and observations**. Submitted to ESSD journal, DOI: <https://doi.org/10.5281/zenodo.4748499>.
+
+Status: this preprint is currently under review for the journal ESSD. This is a preprint; **it has not been peer reviewed by a journal**. A preprint is a preliminary version of a manuscript that has not completed peer review at a journal. ESSD does not conduct peer review prior to posting preprints. The posting of a preprint should not be interpreted as an endorsement of its validity or suitability for dissemination.
 
 To cite these maps please use:
 
