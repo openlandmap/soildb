@@ -44,11 +44,9 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 To cite layers distributed via OpenLandMap-soildb please use:
 
-- Hengl, T., Consoli, D., Tian, X., and others, (2025??). **OpenLandMap-soildb: global soil information at 30~m spatial resolution for 2000--2022+ based on spatiotemporal Machine Learning and harmonized legacy soil samples and observations**. Submitted to ESSD journal, DOI: <https://doi.org/10.5281/zenodo.4748499>.
+- Hengl, T., Consoli, D., Tian, X., Nauman, T. W., Nussbaum, M., Isik, M. S., Parente, L., Ho, Y.-F., Simoes, R., Gupta, S., Samuel-Rosa, A., Zborowski Horst, T., Safanelli, J. L., and Harris, N., (2025??). **OpenLandMap-soildb: global soil information at 30~m spatial resolution for 2000--2022+ based on spatiotemporal Machine Learning and harmonized legacy soil samples and observations**. Earth Syst. Sci. Data Discuss. [preprint], <https://doi.org/10.5194/essd-2025-336>, in review, 
 
 Status: this preprint is currently under review for the journal ESSD. This is a preprint; **it has not been peer reviewed by a journal**. A preprint is a preliminary version of a manuscript that has not completed peer review at a journal. ESSD does not conduct peer review prior to posting preprints. The posting of a preprint should not be interpreted as an endorsement of its validity or suitability for dissemination.
-
-To cite these maps please use (this preprint is currently under review for the journal ESSD):
 
 ```
 @Article{essd-2025-336,
