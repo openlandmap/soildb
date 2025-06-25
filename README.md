@@ -28,9 +28,11 @@ Layers available in the current version of the OpenLandMap-soildb include:
 - USDA subgroup taxa [-];
 
 Full list of layers in available in **[this table](tables/OpenLandMap_soildb_COGS.csv)**. To access layers at finest resolution please use the S3 links.
+To access the global 30-m resolution SOC maps via Google Earth Engine, please use the following (temporary) links: **[5-year block](https://code.earthengine.google.com/ebbb619d2772d2d54ee24b7558dbb29b)**, **[2-year block](https://code.earthengine.google.com/322b8c9e2a705612d79b1f9d3f3936d5)**.
+Upon official publication, all data will be made available via <https://developers.google.com/earth-engine/datasets/publisher/landandcarbon>.
 
 For each prediction (mean value) lower and upper prediction intervals are also provided, however 
-these are available only at 120 m spatial resolution.
+**these are available only at 120-m spatial resolution**.
 
 Additional global layers are available via https://stac.openlandmap.org. 
 
